@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Filter from "./Filter";
-import Movie from "./Movie";
+import Filter from "./component/Filter";
+import Movie from "./component/Movie";
 import { motion, AnimatePresence } from "framer-motion";
 
 function App() {
